@@ -8,7 +8,7 @@ namespace MicroRabbit.Domain.Core.Events
 
         public Event()
         {
-            TimeStamp = DateTime.Now();
+            TimeStamp = DateTime.Now;
         }
     }   
 }
